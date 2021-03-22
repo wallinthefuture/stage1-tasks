@@ -13,7 +13,11 @@ html {
 body {
   min-height: 100vh;
   background-color: #313940;
+<<<<<<< HEAD
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+=======
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
   background: #313940;
   overflow-x: hidden;
 }
@@ -55,7 +59,11 @@ body {
   background-color: #454c53;
   border: 0;
   border-radius: 2px;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: "Open Sans", sans-serif;
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
   font-size: 16px;
   font-weight: 300;
   color: #fff;
@@ -91,7 +99,11 @@ body {
   background-color: rgba(255, 255, 255, 0.85);
   margin: 4px;
   border-radius: 0px 0px 12px 12px;
+<<<<<<< HEAD
   transition: all 0.3s;
+=======
+  transition: 0.3s;
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
   cursor: pointer;
 }
 .piano-key:hover {
@@ -200,13 +212,21 @@ body {
   background-size: contain;
   transition: 0.3s;
   cursor: pointer;
+<<<<<<< HEAD
   background-image: url('assets/svg/fullscreen-open.svg');
+=======
+  background-image: url("assets/svg/fullscreen-open.svg");
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
 }
 .fullscreen:hover {
   background-color: rgba(255, 255, 255, 0.5);
 }
 :-webkit-full-screen .fullscreen {
+<<<<<<< HEAD
   background-image: url('assets/svg/fullscreen-exit.svg');
+=======
+  background-image: url("assets/svg/fullscreen-exit.svg");
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
 }
 .footer {
   border-top: 1px solid;
@@ -227,14 +247,22 @@ body {
   width: 120px;
   height: 45px;
   padding-left: 45px;
+<<<<<<< HEAD
   background-image: url('assets/svg/github.svg');
+=======
+  background-image: url("assets/svg/github.svg");
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
   background-size: 35px;
   background-repeat: no-repeat;
   background-position: left center;
   line-height: 45px;
   color: #cbd5de;
   font-size: 16px;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
+=======
+  font-family: "Open Sans", sans-serif;
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
   transition: 0.3s;
 }
 .github:hover {
@@ -243,10 +271,17 @@ body {
 .rss {
   display: block;
   position: relative;
+<<<<<<< HEAD
   font-family: 'Open Sans', sans-serif;
   width: 86px;
   height: 32px;
   background-image: url('assets/svg/rss.svg');
+=======
+  font-family: "Open Sans", sans-serif;
+  width: 86px;
+  height: 32px;
+  background-image: url("assets/svg/rss.svg");
+>>>>>>> 05d11fe5d88538e53c3e75adf6fd6a6b51395f50
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
