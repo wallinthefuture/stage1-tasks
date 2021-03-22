@@ -1,7 +1,5 @@
 const piano = document.querySelector('.piano');
 const pianoКeys = document.querySelectorAll('.piano-key');
-const btn = document.querySelector('.btn-container');
-const btnKeys = document.querySelectorAll('.btn');
 
 function playAudio(src) {
   const audio = new Audio();
@@ -32,6 +30,9 @@ window.addEventListener('keydown', (event) => {
   }
 });
 
+const btn = document.querySelector('.btn-container');
+const btnKeys = document.querySelectorAll('.btn');
+
 btn.addEventListener('click', (event) => {
   if (!event.target.classList.contains('btn-active')) {
     btnKeys.forEach((el) => {
@@ -51,3 +52,14 @@ function removeTransition(e) {
 pianoКeys.forEach((el) =>
   el.addEventListener('transitionend', removeTransition)
 );
+
+const flscreen = document.querySelector('.fullscreen');
+flscreen.addEventListener('click', (event) => {
+  if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen();
+  } else {
+    if (document.exitFullscreen) {
+      document.exitFullscreen();
+    }
+  }
+});
